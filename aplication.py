@@ -118,7 +118,7 @@ with col_graf3:
         grafico_remoto.update_layout(title_x=0.1)
         st.plotly_chart(grafico_remoto, use_container_width=True)
     else:
-        st.warning("Nenhum dado para exibir no gráfico dos tipos de trabalho.")
+        st.warning("Nenhum dado para exibir no gráfico dos tipos de trabalho!")
         
 with col_graf4:
     if not df_filtrado.empty:
